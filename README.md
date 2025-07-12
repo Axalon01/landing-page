@@ -1,1 +1,1 @@
-# landing-page
+This is my first site page from scratch that uses CSS. I'm going to make a landing page, utilizing the CSS and Flexbox techniques I've learned and hope it turns out okay!
