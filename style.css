@@ -15,10 +15,6 @@ img {
     padding: 0 24px;
 }
 
-.nav {
-    color: white;
-}
-
 header,
 .hero,
 footer {
@@ -26,8 +22,31 @@ footer {
     color: white;
 }
 
+.hero-text,
+.cta-text,
+.info-card {
+    flex: 0 1 400px;
+}
+
 header {
     margin-bottom: 84px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text p,
+.nav-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.nav-links a {
+    margin: 0 16px;
 }
 
 
