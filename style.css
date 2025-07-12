@@ -4,6 +4,20 @@
     margin: 0;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 img {
     max-width: 450px;
     height: auto;
@@ -28,8 +42,15 @@ footer {
     flex: 0 1 400px;
 }
 
-header {
-    margin-bottom: 84px;
+.hero {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAFA;
+    font-weight: 500;
 }
 
 h1 {
@@ -57,9 +78,21 @@ header .container,
     align-items: center;
 }
 
+.hero-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
