@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", "Times New Roman", "Serif";
+    margin: 0;
+}
+
+img {
+    max-width: 450px;
+    height: auto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.nav {
+    color: white;
+}
+
+header,
+.hero,
+footer {
+    background: #1F2937;
+    color: white;
+}
+
+header {
+    margin-bottom: 84px;
+}
+
+
+header .container,
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
