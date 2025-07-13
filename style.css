@@ -83,6 +83,9 @@ h1 {
     margin: 0 16px;
 }
 
+.hero-logo img {
+    border-radius: 8px;
+}
 
 header .container,
 .hero .container {
